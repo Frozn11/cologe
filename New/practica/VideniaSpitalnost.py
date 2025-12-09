@@ -30,7 +30,7 @@ def main():
     average = round(sum(grades) / len(grades), 1)
 
     # Определение уровня успеваемости
-    if average == 5.0:
+    if average >= 5.0:
         level = "Отлично!"
     elif 4.0 <= average < 5.0:
         level = "Хорошо!"
